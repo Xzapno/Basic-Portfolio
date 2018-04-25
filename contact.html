@@ -5,40 +5,51 @@
     <Head>
         <meta charset="UTF-8">
         <title>Paul Hoffman Contact Me</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/reset.css">
     </Head>
 
-    <body>
-
+    <body background="images/ep_naturalwhite.png">
+    
          <header>
-            <h1>Paul Hoffman</h1>
+            <div class="headCenter">
+                <div class="logo">
+                    <h1>Paul Hoffman</h1>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                     </ul>
+                </div>
+            </div>
         </header>
     
-        <nav>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    
         <div class="container">
+
+            <h2>Contact</h2>
+
+            <hr />
+
             <form>
                    Name :<br />
-                    <input type="text">
+                    <input type="text" name="name">
                         <br />
                    Email:
                         <br />
-                   <input type="text">
+                   <input type="text" name="Email">
                         <br />
-                   <input type="text">
+                    Message:
                         <br />
-                   <input type="submit">
+                   <input type="text" name="message">
+                        <br />
+                   <input type="submit" >
             </form>
         </div>
     
         <footer>
                 <p>&#9400; Paul Hoffman 2018</p>
-    
         </footer>
     
      </body>
