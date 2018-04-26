@@ -1,4 +1,7 @@
+/* === Layout Elements === */
+
 body {
+    height: 100%;
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -6,6 +9,59 @@ body {
     color: #777777;
     text-align: left;
 }
+
+header {
+    width: 100%;
+    height: 90px;
+    margin: 0px 0px 40px 0px;
+    padding: 0px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+.headCenter {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.logo {
+    width: 250px;
+    height: 90px;
+    background-color: #4aaaa5;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    float: left;
+}
+
+.nav {
+    float: right;
+    align-content: center;
+}
+
+.container {
+    clear: both;
+    width:900px;
+    padding: 30px 30px 35px 30px;
+    margin: 0 auto;
+    background: white;
+    border: 1px solid #dddddd;
+}
+
+footer {
+    width: 100%;
+    padding: 30px 0px 4px 0px;
+    margin: 0px;
+    background-color: #666;
+    border-top: 10px solid #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+
+/** === Text Elements === */
 
 h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -41,58 +97,10 @@ a:hover {
     color: #4aaaa5;
 }
 
-header {
-    width: 100%;
-    height: 90px;
-    margin: 0px 0px 40px 0px;
-    padding: 0px;
-    background-color: #ffffff;
-    border-bottom: 2px solid #777777;
-}
-
-.headCenter {
-    width: 1020px;
-    margin: 0 auto;
-    padding: 0px;
-}
-
-.logo {
-    width: 250px;
-    height: 90px;
-    background-color: #4aaaa5;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    float: left;
-}
-
-.nav {
-    float: right;
-    align-content: center;
-}
-
-.container {
-    clear: both;
-    width:960px;
-    padding: 30px 30px 35px 30px;
-    margin: 0 auto;
-    background: white;
-}
+/* === Images === */
 
 .images {
     clear: both;
-}
-
-footer {
-    width: 100%;
-    padding: 30px 0px 4px 0px;
-    margin: 0px;
-    background-color: #666;
-    border-top: 10px solid #4aaaa5;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 10px;
-    text-align: center;
 }
 
 .bioPic {
@@ -111,8 +119,24 @@ footer {
     display: table;
 }
 
+
+/* ==== form feilds === */
+
+form {
+    padding-top: 30px;
+}
+
 input[type=text] {
-    width: 100%;
+    width: 896px;
+    padding: 5px;
+    margin: 8px 0px 20px 0px;
+    font-size: 16px;
+    color: #777777;
+}
+
+input[type=textarea] {
+    width: 896px;
+    height: 200px;
     padding: 5px;
     margin: 8px 0px 20px 0px;
     font-size: 16px;
@@ -131,3 +155,5 @@ input[type=submit] {
     border: none;
     cursor: pointer;
 }
+
+
